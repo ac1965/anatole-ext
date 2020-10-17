@@ -1,5 +1,5 @@
-baseURL = "https://lisp.netlify.app"
-languageCode = "en-us"
+baseURL = "https://www.ty07.net"
+languageCode = "ja-jp"
 title = "Hiroshima.lisp"
 enableEmoji = true
 enableInlineShortcodes = true
@@ -8,15 +8,11 @@ hasCJKLanguage = true
 googleAnalytics = "UA-888888888-8"
 
 [params]
-  author = ""
-  Copyright = ""
-  description = ""
+  author = "ac1965"
+  Copyright = "Powered by Hugo. Copyright @ 2009 - 2020 YAMASHITA Takao."
+  description = "The sound, old pond and frog jump into water."
 
 ## Social links
-[[params.socialIcons]]
-  icon = "fa-university"
-  url = "https://www.hiroshima-u.ac.jp/"
-
 [[params.socialIcons]]
   icon = "fa-github"
   url = "https://github.com/conao3/hiroshima.lisp"
@@ -24,21 +20,6 @@ googleAnalytics = "UA-888888888-8"
 [[params.socialIcons]]
   icon = "fa-twitter"
   url = "https://twitter.com/hiroshimalisp"
-
-[[params.socialIcons]]
-  icon = "fa-slack"
-  url = "https://hiroshima-lisp.slack.com/join/shared_invite/enQtNjE0NTc5ODE0MTk3LThiZTM0MjVlMGY4ODQ4ZWQxZTIxZmViYmQ1NDIzN2JlYmNmNWNmOTA0N2I3ODdjMjdlYWU2MjZkZTBhZGU3OGQ"
-  style= "font-size:1.1em"
-
-[[params.socialIcons]]
-  icon = "fa-envelope"
-  url = "/blog/mail"
-  style= "font-size:0.9em"
-
-[[params.socialIcons]]
-  icon = "fa-balance-scale"
-  url = "/blog/license"
-  style= "font-size:0.8em"
 
 [params.math]
   global = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
