@@ -1,6 +1,6 @@
 baseURL = "https://www.ty07.net"
 languageCode = "ja-jp"
-title = "Hiroshima.lisp"
+title = "Bad Father"
 enableEmoji = true
 enableInlineShortcodes = true
 enableGitInfo = true
@@ -8,18 +8,18 @@ hasCJKLanguage = true
 googleAnalytics = "UA-888888888-8"
 
 [params]
-  author = "ac1965"
-  Copyright = "Powered by Hugo. Copyright @ 2009 - 2020 YAMASHITA Takao."
-  description = "The sound, old pond and frog jump into water."
+  author = ""
+  Copyright = ""
+  description = ""
 
 ## Social links
 [[params.socialIcons]]
   icon = "fa-github"
-  url = "https://github.com/conao3/hiroshima.lisp"
+  url = "https://github.com/ac1965/"
 
 [[params.socialIcons]]
   icon = "fa-twitter"
-  url = "https://twitter.com/hiroshimalisp"
+  url = "https://twitter.com/ac1965"
 
 [params.math]
   global = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
