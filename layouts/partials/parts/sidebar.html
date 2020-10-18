@@ -1,8 +1,8 @@
 <aside id="sidebar" class="col-lg-3">
     <div id="sidebar-title">
-        <img id="sidebar-title-logo" src="/images/{{ $.Site.Params.logo }}">
+        <img id="sidebar-title-logo" src="{{ $.Site.Params.logo }}">
         <a id="sidebar-title-home" href="/">{{ .Site.Title }}</a>
-        <div id="sidebar-title-desc">{{ .Site.Params.description }}</div>
+        <div id="sidebar-title-desc">{{ .Site.Params.subtitle }}</div>
         <ul id="sidebar-social-links">
             {{ range $item := .Site.Params.socialIcons -}}
             <a href="{{ $item.url }}">
