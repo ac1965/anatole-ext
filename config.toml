@@ -1,6 +1,4 @@
-baseURL = "https://www.ty07.net"
 languageCode = "ja-jp"
-title = "Bad Father"
 enableEmoji = true
 enableInlineShortcodes = true
 enableGitInfo = true
@@ -8,14 +6,14 @@ hasCJKLanguage = true
 googleAnalytics = "UA-888888888-8"
 
 [params]
-  author = ""
-  Copyright = ""
-  description = ""
+  author = "ac1965"
+  Copyright = "Powered by Hugo. Copyright @ 2009 - 2020 YAMASHITA Takao."
+  description = "The sound, old pond and frog jump into water."
 
 ## Social links
 [[params.socialIcons]]
   icon = "fa-github"
-  url = "https://github.com/ac1965/"
+  url = "https://github.com/ac1965"
 
 [[params.socialIcons]]
   icon = "fa-twitter"
@@ -24,22 +22,6 @@ googleAnalytics = "UA-888888888-8"
 [params.math]
   global = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
   engine = "katex"  # options: "katex", "mathjax". default is "mathjax".
-
-# See https://feathericons.com/
-# The value of pre is the icon name
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Archive"
-    url = "/blog/"
-    weight = 2
-  [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 3
 
 [taxonomies]
   tag = "tags"
