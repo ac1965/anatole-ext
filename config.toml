@@ -1,19 +1,13 @@
-languageCode = "ja-jp"
 enableEmoji = true
 enableInlineShortcodes = true
 enableGitInfo = true
 hasCJKLanguage = true
 googleAnalytics = "UA-888888888-8"
 
-[params]
-  author = "ac1965"
-  Copyright = "Powered by Hugo. Copyright @ 2009 - 2020 YAMASHITA Takao."
-  description = "The sound, old pond and frog jump into water."
-
 ## Social links
 [[params.socialIcons]]
   icon = "fa-github"
-  url = "https://github.com/ac1965"
+  url = "https://github.com/ac1965/"
 
 [[params.socialIcons]]
   icon = "fa-twitter"
