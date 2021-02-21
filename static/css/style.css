@@ -47,6 +47,10 @@ p > a {
     margin: 0 0.2rem;
 }
 
+image {
+    max-width: 100%;
+} 
+
 figure > img {
     margin: 3rem auto;
     max-width: 100%;
